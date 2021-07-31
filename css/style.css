@@ -1,0 +1,47 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 4rem;
+}
+
+.card:hover {
+  border-style: solid;
+  border-color: #28a74573;
+  box-shadow: 0 4px 8px 0 #0000002e, 0 6px 14px 0 #00000026;
+}
+
+.about {
+  box-shadow: 0 -0.1rem 0.2rem #ababab;
+}
+
+.about button {
+  background-color: lightcoral;
+  color: white;
+  padding: 0 0.5rem;
+  border-style: none;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px 0 grey;
+  position: absolute;
+  top: -0.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 4rem;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .about {
+    position: relative;
+    box-shadow: none;
+  }
+
+  .about button {
+    display: none;
+  }
+}
